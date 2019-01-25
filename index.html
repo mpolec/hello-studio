@@ -7,28 +7,28 @@
     <title>Hello Studio</title>
   </head>
   <body>
-    <header>
-      <h1>
-        <span>the time is</span>
-        <span>now</span>
+    <header class="header">
+      <h1 class="header__heading">
+        <span class="header__heading1">the time is</span>
+        <span class="header__heading2">now</span>
       </h1>
-      <nav>
-        <ul>
-          <li><a href="#intro">intro</a></li>
-          <li><a href="#gallery">gallery</a></li>
-          <li><a href="#services">services</a></li>
-          <li><a href="#contact">contact</a></li>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#intro" class="nav__link">intro</a></li>
+          <li class="nav__item"><a href="#gallery" class="nav__link">gallery</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">services</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
         </ul>
       </nav>
-      <section>
-        <ul>
-          <li><a href="https://pinterest.com">Pinterest<img src="assets/pinterest.svg" aria-hidden="true"></a></li>
-          <li><a href="https://facebook.com">Facebook<img src="assets/facebook.svg" aria-hidden="true"></a></li>
-          <li><a href="https://twitter.com">Twitter<img src="assets/twitter.svg" aria-hidden="true"></a></li>
+      <section class="media">
+        <ul class="media__list">
+          <li class="media__item"><a href="https://pinterest.com" class="media__link">Pinterest<img src="assets/pinterest.svg" aria-hidden="true" class="media__logo"></a></li>
+          <li class="media__item"><a href="https://facebook.com" class="media__link">Facebook<img src="assets/facebook.svg" aria-hidden="true" class="media__logo"></a></li>
+          <li class="media__item"><a href="https://twitter.com" class="media__link">Twitter<img src="assets/twitter.svg" aria-hidden="true" class="media__logo"></a></li>
         </ul>
       </section>
     </header>
-    <section>
+    <section class="studio-intro">
       <h2>we're hello studio.</h2>
       <p>
         Lomo aesthetic lo-fi etsy sustainable cray. Typewriter knausgaard narwhal, vape af tofu occupy pour-over
@@ -46,9 +46,9 @@
         blue bottle kickstarter health goth. Organic health goth lyft, gochujang lomo small batch fingerstache marfa hot
         chicken.
       </p>
-      <img src="assets/about-img.jpg" alt="a woman walking through a dessert">
+      <img src="assets/about-img.jpg" alt="a woman walking through a dessert" class="studio-intro__image">
     </section>
-    <section>
+    <section class="gallery-info">
       <h2>gallery</h2>
       <p>
         Hoodie leggings offal, heirloom lo-fi pug freegan put a bird on it hella crucifix authentic beard biodiesel
@@ -56,20 +56,20 @@
         tumblr.
       </p>
     </section>
-    <section>
+    <section class="opening-hours">
       <h2>opening hours</h2>
-      <p>
+      <p class="opening-hours__info">
         <span>we're open every day</span>
         <span>from 8am - 7pm</span>
       </p>
     </section>
-    <section>
+    <section class="services">
       <h2>services</h2>
-      <ul>
-        <li>design</li>
-        <li>strategy</li>
-        <li>protyping</li>
-        <li>research</li>
+      <ul class="services__list">
+        <li class="services__list-item">design</li>
+        <li class="services__list-item">strategy</li>
+        <li class="services__list-item">protyping</li>
+        <li class="services__list-item">research</li>
       </ul>
       <p>
         Hoodie leggings offal, heirloom lo-fi pug freegan put a bird on it hella crucifix authentic beard biodiesel
@@ -81,20 +81,20 @@
         freegan, viral lumbersexual ennui kinfolk. Twee fixie bitters pop-up, roof party deep v 3 wolf moon irony etsy
         man braid fap jean shorts.
       </p>
-      <img src="assets/img.jpg" alt="Hello Studio Office">
+      <img src="assets/img.jpg" alt="Hello Studio Office" class="services__image">
     </section>
-    <section>
+    <section class="contact">
       <h2>contact</h2>
-      <form>
-        <label for="name">name</label>
-        <input type="text" id="name">
-        <label for="topic">topic</label>
-        <textarea id="topic"></textarea>
-        <label for="email">email</label>
-        <input type="email" id="email">
-        <button>send</button>
+      <form class="contact-form">
+        <label for="name" class="contact-form__label">name</label>
+        <input type="text" id="name" class="contact-form__input">
+        <label for="topic" class="contact-form__label">topic</label>
+        <textarea id="topic" class="contact-form__text-area"></textarea>
+        <label for="email" class="contact-form__label">email</label>
+        <input type="email" id="email" class="contact-form__input">
+        <button class="contact-form__button">send</button>
       </form>
-      <h3>say hello.</h3>
+      <h3 class="contact__subheading">say hello.</h3>
       <p>
         Raclette cronut PBR&B, hoodie heirloom blog ethical migas lyft squid jean shorts pinterest succulents fixie
         synth. Literally skateboard 3 wolf moon organic shabby chic sartorial hell of mumblecore tbh humblebrag. Swag
